@@ -1,0 +1,522 @@
+body{
+  background-color: #131313;
+  color: #fffafa;
+}
+
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  margin-left: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-collapse {
+    margin-left: 70px;
+  }
+}
+
+.nav-link {
+    font-family: 'Abyssinica SIL', serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.02rem;
+  text-align: center;
+}
+
+.navbar .nav-item:hover .nav-link {
+  color: #9b9995;
+}
+
+
+
+.navbar-collapse {
+  margin-right: 50px;
+}
+
+.logo {
+  border-radius: 40%;
+  padding-top: 10px;
+}
+
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+
+}
+
+.footer p {
+  padding-top: 50px;
+  font-size: 14px;
+  color: #C2BFBA;
+}
+
+
+
+.section1{
+  background-image: url("https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNsaW5pY2FsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+
+}
+
+.section5{
+  background-image: url("https://media.istockphoto.com/photos/microscope-with-lab-glassware-picture-id909908830?k=20&m=909908830&s=612x612&w=0&h=yO-zLAYbbv8dJsp7nfq3u9GFfPAqxXrjndNkZcAZru0=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  background-attachment: fixed;
+}
+
+
+.section3{
+  margin-top: 65px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyR0rBq0PuAw2GC_ZosbBBnCNIMpL8smy3w&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  background-attachment: fixed;
+}
+
+.section6{
+  margin-top: 65px;
+  background-image: url("https://media.istockphoto.com/photos/assistant-of-reproductive-medicine-clinic-fertilizing-egg-outside-picture-id879832484?k=20&m=879832484&s=612x612&w=0&h=otsDnMa37-XVUxM0SuCX8SulGCUEmvdk-cyxe0YwDOA=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  background-attachment: fixed;
+}
+
+.linear{
+background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5)100%);
+width:  100%;
+height: 100%;
+}
+
+
+.linear2{
+  background: linear-gradient( rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9)40%, rgba(254, 255, 244, 0.3)70%, rgba(255, 255, 255, 0.12));
+  width:  100%;
+  height: 100%;
+}
+
+.text1{
+  width: 95%;
+  position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
+  text-align: left;
+  font-style: italic;
+}
+
+.text5{
+  width: 95%;
+  position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
+  text-align: center;
+  font-style: italic;
+}
+
+
+.name{
+  font-family: "Montserrat-black";
+  color: #fff;
+  font-size: 50px;
+}
+
+.explore{
+  font-family: "Montserrat-black";
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 310px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .name{
+    font-size: 45px;
+  }
+
+  .explore{
+    font-size: 45px;
+  }
+}
+
+.section3-name{
+    font-family: 'Abyssinica SIL', serif;
+    text-align: center;
+    color: #131313;
+    font-style: italic;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.section6-name{
+    font-family: 'Abyssinica SIL', serif;
+    text-align: center;
+    color: #131313;
+    font-style: italic;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.section3-standard{
+  text-align: center;
+  font-family: 'Abyssinica SIL', serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #131313;
+}
+
+.section6-standard{
+  text-align: center;
+  font-family: 'Abyssinica SIL', serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #131313;
+}
+
+.about{
+  font-family: 'Abyssinica SIL', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+.about1{
+  background-image: url("https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUzfHxjbGluaWNhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
+.about4{
+  background-image: url("https://media.istockphoto.com/photos/nurse-gives-senior-adult-healthcare-worker-the-covid19-vaccine-picture-id1291715271?k=20&m=1291715271&s=612x612&w=0&h=FoWmlU-kwXx6BdnoVpKe9RUTw89nDFDxzt5qChoqugY=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
+
+.about2{
+  background-image: url("https://images.unsplash.com/photo-1579165466991-467135ad3110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2xpbmljYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
+.about7{
+  background-image: url("https://media.istockphoto.com/photos/scientist-works-with-petri-dishes-with-various-bacteria-tissue-and-picture-id1212392754?k=20&m=1212392754&s=612x612&w=0&h=weZKJci-pDUXP3W4pD2l2dwqq3s6YcfVAzFRNDGc704=");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
+.about5{
+  background-image: url("https://media.istockphoto.com/photos/young-doctor-visits-senior-woman-with-surgical-mask-picture-id1284869164?k=20&m=1284869164&s=612x612&w=0&h=sRgl50_nQbm4J6Jq8ewDPz4HnR6fno_sVI1zlNVBuys=");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
+.section2{
+  margin-top: 30px;
+}
+.section4{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.row{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.row2{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.about-us{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.services{
+  padding-top: 45px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.dis{
+  padding: 20px;
+}
+
+.dat{
+  padding: 20px;
+}
+
+
+.carousel{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.carousel-item{
+  text-align: center;
+}
+
+.carousel-item img{
+border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .dis{
+    padding: 0;
+    padding-bottom: 10px;
+width: 100%;
+  }
+
+  .row{
+    padding-left: 23px;
+  }
+
+
+.carousel-item img{
+width: 95%;
+}
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .dis{
+width: 85%;
+  }
+
+  .row{
+    padding-left: 105px;
+  }
+
+  .carousel-item img{
+  width: 77%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .dis{
+width: 73%;
+  }
+
+  .row{
+    padding-left: 195px;
+  }
+
+
+  .carousel-item img{
+  width: 60%;
+  }
+
+}
+
+@media only screen and (min-width: 950px) {
+  .dis{
+width: 50%;
+  }
+
+  .row{
+    padding-left: 30px;
+  }
+
+  .carousel-item img{
+  width: 50%;
+  }
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+  .dis{
+width: 45%;
+  }
+
+  .row{
+    padding-left: 115px;
+  }
+
+  .carousel-item img{
+
+  width: 40%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .dat{
+    padding: 10px;
+width: 100%;
+  }
+
+  .row2{
+    padding-left: 0;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  .dat{
+width: 85%;
+  }
+
+  .row2{
+    padding-left: 85px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .dat{
+width: 73%;
+  }
+
+  .row2{
+    padding-left: 180px;
+
+}
+
+}
+
+@media only screen and (min-width: 950px) {
+  .dat{
+width: 70%;
+  }
+
+  .row2{
+    padding-left: 245px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1100px) {
+  .dat{
+width: 60%;
+  }
+
+  .row2{
+     padding-left: 350px;
+  }
+
+}
+
+
+.btn {
+  background: #fffafa;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d1d;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #9b9995;
+  text-decoration: none;
+  color: #fffafa;
+}
+
+.link{
+  color: #fffafa;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.link:hover {
+  color: #9b9995;
+}
+
+.links{
+margin-top: 20px;
+}
+
+
+.contact-me{
+  margin-top: 180px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.platforms{
+    font-family: "Montserrat-black";
+    font-style: italic;
+}
+
+.social-handles{
+  background-image: url("https://www.socra.org/blog/wp-content/uploads/2019/07/bannerNew1-1024x513.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 70px;
+  height: 40vh;
+background-attachment: fixed;
+}
+
+.get{
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.linear3{
+background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5)100%);
+  width:  100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.input{
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.drop{
+  margin-bottom: 20px;
+}
