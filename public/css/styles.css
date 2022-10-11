@@ -58,6 +58,7 @@ h4{
 
 
 .footer {
+  margin-top: 20px;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -161,10 +162,6 @@ transform: translate(-50%, -50%);
   margin-bottom: 350px;
 }
 
-
-@media only screen and (max-width: 600px) {
-
-}
 
 .section3-name{
     font-family: 'Abyssinica SIL', serif;
@@ -343,6 +340,14 @@ width: 100%;
 }
 
 .section3-standard{
+  font-size: 20px;
+}
+
+.section6-name{
+    font-size: 37px;
+}
+
+.section6-standard{
   font-size: 20px;
 }
 
