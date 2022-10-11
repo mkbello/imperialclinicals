@@ -367,6 +367,13 @@ top: 52%;
 .about4{
   height: 320px;
 }
+.link{
+
+  margin:0;
+
+  font-size: 15px;
+
+}
 
 
 .about2{
@@ -389,6 +396,7 @@ top: 52%;
   .explore{
     font-size: 45px;
   }
+
 }
 
 
