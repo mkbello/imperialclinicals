@@ -163,13 +163,7 @@ transform: translate(-50%, -50%);
 
 
 @media only screen and (max-width: 600px) {
-  .name{
-    font-size: 45px;
-  }
 
-  .explore{
-    font-size: 45px;
-  }
 }
 
 .section3-name{
@@ -338,8 +332,39 @@ width: 100%;
 .row2{
   padding-left: 0;
 }
+.section3{
+
+  height: 35vh;
+
+}
+
+.section3-name{
+    font-size: 37px;
+}
+
+.section3-standard{
+  font-size: 20px;
+}
+
+.section1{
+  height: 90vh;
+
+}
+
+.text1{
+top: 52%;
 
 
+}
+
+
+  .name{
+    font-size: 45px;
+  }
+
+  .explore{
+    font-size: 45px;
+  }
 }
 
 
