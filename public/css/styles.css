@@ -212,6 +212,7 @@ transform: translate(-50%, -50%);
   border-radius: 30px;
 }
 
+
 .about4{
   background-image: url("https://media.istockphoto.com/photos/nurse-gives-senior-adult-healthcare-worker-the-covid19-vaccine-picture-id1291715271?k=20&m=1291715271&s=612x612&w=0&h=FoWmlU-kwXx6BdnoVpKe9RUTw89nDFDxzt5qChoqugY=");
   background-repeat: no-repeat;
@@ -258,10 +259,6 @@ transform: translate(-50%, -50%);
   margin-top: 20px;
 }
 
-.row2{
-  width: 100%;
-  margin-top: 20px;
-}
 
 .about-us{
   padding-top: 50px;
@@ -276,10 +273,7 @@ transform: translate(-50%, -50%);
 }
 
 .dis{
-  padding: 20px;
-}
-
-.dat{
+  text-align: center;
   padding: 20px;
 }
 
@@ -309,7 +303,6 @@ width: 100%;
     padding-left: 23px;
   }
 
-
 .carousel-item img{
 width: 95%;
 }
@@ -320,14 +313,6 @@ width: 95%;
   padding-top: 40px;
 }
 
-.dat{
-  padding: 10px;
-width: 100%;
-}
-
-.row2{
-  padding-left: 0;
-}
 .section3{
 
   height: 35vh;
@@ -414,13 +399,6 @@ width: 85%;
   width: 77%;
   }
 
-  .dat{
-width: 85%;
-  }
-
-  .row2{
-    padding-left: 85px;
-  }
 
 
 }
@@ -439,15 +417,6 @@ width: 73%;
   width: 60%;
   }
 
-  .dat{
-width: 73%;
-  }
-
-  .row2{
-    padding-left: 180px;
-
-}
-
 
 }
 
@@ -462,13 +431,6 @@ width: 50%;
 
   .carousel-item img{
   width: 50%;
-  }
-  .dat{
-width: 70%;
-  }
-
-  .row2{
-    padding-left: 245px;
   }
 
 }
@@ -486,13 +448,6 @@ width: 45%;
   .carousel-item img{
 
   width: 40%;
-  }
-  .dat{
-width: 60%;
-  }
-
-  .row2{
-     padding-left: 350px;
   }
 
 }
@@ -573,4 +528,35 @@ background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.
 }
 .drop{
   margin-bottom: 20px;
+}
+
+.anchor{
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  background: #fffafa;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d1d;
+}
+.contact-anchor{
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  background: #fffafa;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d1d;
+}
+
+.contact-anchor:hover {
+  background: #9b9995;
+  text-decoration: none;
+  color: #fffafa;
+}
+.anchor:hover {
+  background: #9b9995;
+  text-decoration: none;
+  color: #fffafa;
 }
