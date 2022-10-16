@@ -15,9 +15,8 @@ app.get("/", function(req, res){
 
 
 app.get("/contact", function(req, res){
-  res.sendFile(__dirname + "/contact.html");
+  res.sendFile(__dirname + "/feedback_form.html");
 });
-
 
 
 
