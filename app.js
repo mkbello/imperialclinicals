@@ -25,6 +25,10 @@ app.get("/contact", function(req, res){
 
 app.post("/contact", function(req, res){
 
+
+
+
+
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -37,7 +41,7 @@ let mailOptions = {
   from: req.body.email,
   to: 'muktarbello32@gmail.com',
   subject: req.body.name,
-  text: req.body.message,
+  text:"Message: " + req.body.message + "\n" + "Email: " + req.body.email,
 };
 
 transporter.sendMail(mailOptions, function(error, info){
