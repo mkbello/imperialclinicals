@@ -5,7 +5,6 @@ const nodemailer = require("nodemailer");
 
 
 const app = express();
-
 app.use(express.static("public"));
 
 app.use(express.json());
@@ -26,34 +25,30 @@ app.get("/contact", function(req, res){
 app.post("/contact", function(req, res){
   console.log(req.body);
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: 'muktarbello32@gmail.com',
-      pass: 'tanimola1@'
-    }
+let transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'muktarbello32@gmail.com',
+    pass: 'octnqijpnxkwgzus'
+  },
+});
 
-}  );
-
-
-const mailOptions = {
-
+let mailOptions = {
   from: req.body.email,
   to: 'muktarbello32@gmail.com',
-  text: req.body.message
+  subject: req.body.name,
+  text: req.body.message,
+};
 
-}
-
- transporter.sendMail(mailOptions, (error, info)=>{
-  if(error){
-    console.log('error');
-    res.send('error');
-  }else{
+transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+ console.log(error);
+ res.send('error');
+  } else {
     console.log('Email sent: ' + info.response);
     res.send('success');
   }
 });
-
 
 });
 

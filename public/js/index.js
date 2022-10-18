@@ -1,4 +1,3 @@
-
 const contactForm = document.querySelector('.contact-form');
 
 let name = document.getElementById('name');
@@ -14,18 +13,19 @@ message: message.value
 
 }
 
+
 let xhr = new XMLHttpRequest();
  xhr.open('POST', '/contact');
  xhr.setRequestHeader('content-type', 'application/json');
  xhr.onload = function(){
    console.log(xhr.responseText);
    if(xhr.responseText == 'success'){
-     alert('email sent');
+     alert('Email sent');
      name.value = '';
      email.value = '';
      message.value = '';
    }else{
-     alert('something went wrong')
+     alert('Something went wrong')
    }
  }
 xhr.send(JSON.stringify(formData));
