@@ -1,10 +1,11 @@
 //jshint esversion:6
 const express = require("express");
-
+const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-
-
 const app = express();
+
+
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 app.use(express.json());
@@ -23,7 +24,6 @@ app.get("/contact", function(req, res){
 });
 
 app.post("/contact", function(req, res){
-  console.log(req.body);
 
 let transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -34,7 +34,7 @@ let transporter = nodemailer.createTransport({
 });
 
 let mailOptions = {
-  from: req.body.email,
+  from: req.body.YourEmail,
   to: 'muktarbello32@gmail.com',
   subject: req.body.name,
   text: req.body.message,
