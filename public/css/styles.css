@@ -105,7 +105,7 @@ h4{
 }
 
 .section6{
-  margin-top: 65px;
+  margin-top: 55px;
   background-image: url("https://media.istockphoto.com/photos/assistant-of-reproductive-medicine-clinic-fertilizing-egg-outside-picture-id879832484?k=20&m=879832484&s=612x612&w=0&h=otsDnMa37-XVUxM0SuCX8SulGCUEmvdk-cyxe0YwDOA=");
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,7 +140,7 @@ transform: translate(-50%, -50%);
 .text5{
   width: 95%;
   position: absolute;
-top: 65%;
+top: 70%;
 left: 50%;
 transform: translate(-50%, -50%);
   text-align: center;
@@ -246,33 +246,41 @@ transform: translate(-50%, -50%);
   border-radius: 30px;
 }
 
+.about6{
+  background-image: url("https://theoncologyinstitute.com/wp-content/uploads/2020/12/image-1-4.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-radius: 30px;
+}
+
 .section2{
   margin-top: 30px;
 }
 .section4{
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .row{
   width: 100%;
-  margin-top: 20px;
 }
 
 
 .about-us{
   padding-top: 50px;
   text-align: center;
-  padding-bottom: 7px;
+  padding-bottom: 35px;
 }
 
 .services{
   padding-top: 45px;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
   text-align: center;
 }
 
 .dis{
+  margin-bottom: 25px;
   text-align: center;
   padding: 20px;
 }
