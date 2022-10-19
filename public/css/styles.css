@@ -140,7 +140,7 @@ transform: translate(-50%, -50%);
 .text5{
   width: 95%;
   position: absolute;
-top: 70%;
+top: 67%;
 left: 50%;
 transform: translate(-50%, -50%);
   text-align: center;
@@ -306,6 +306,10 @@ border-radius: 20px;
     padding-bottom: 10px;
 width: 100%;
   }
+
+.text5{
+  top: 66%;
+}
 
   .row{
     padding-left: 23px;
