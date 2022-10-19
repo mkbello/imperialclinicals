@@ -454,7 +454,7 @@ width: 45%;
 
 
 
-.btn {
+.submit {
   background: #fffafa;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
@@ -465,7 +465,7 @@ width: 45%;
   margin-top: 20px;
 }
 
-.btn:hover {
+.submit:hover {
   background: #9b9995;
   text-decoration: none;
   color: #fffafa;

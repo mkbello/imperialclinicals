@@ -26,9 +26,6 @@ app.get("/contact", function(req, res){
 app.post("/contact", function(req, res){
 
 
-
-
-
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
