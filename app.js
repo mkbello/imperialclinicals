@@ -34,10 +34,14 @@ let transporter = nodemailer.createTransport({
   },
 });
 
+let fullName = req.body.name;
+let result = fullName.toUpperCase();
+
+
 let mailOptions = {
-  from: req.body.email,
+  from:req.body.email,
   to: 'muktarbello32@gmail.com',
-  subject: req.body.name,
+  subject: result,
   text:"Message: " + req.body.message + "\n" + "Email: " + req.body.email,
 };
 
