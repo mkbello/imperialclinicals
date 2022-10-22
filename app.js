@@ -34,15 +34,23 @@ let transporter = nodemailer.createTransport({
   },
 });
 
-let fullName = req.body.name;
-let result = fullName.toUpperCase();
+let subject = req.body.subject;
+let result = subject.toUpperCase();
 
+let fullName = req.body.name;
+let result2 = fullName.toUpperCase();
+
+let email = req.body.email;
+let message = req.body.message;
 
 let mailOptions = {
-  from:req.body.email,
+  from: req.body.email,
   to: 'muktarbello32@gmail.com',
   subject: result,
-  text:"Message: " + req.body.message + "\n" + "Email: " + req.body.email,
+  html: `You got a message from <br>
+   Email : ${email} <br>
+   Name: ${result2} <br>
+   Message: ${message}`,
 };
 
 transporter.sendMail(mailOptions, function(error, info){
